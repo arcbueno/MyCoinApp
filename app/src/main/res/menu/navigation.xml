@@ -4,16 +4,16 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/litecoin_logo"
-        android:title="Litecoin" />
+        android:title="@string/litecoin" />
 
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/bitcoin_cash_icon_1"
-        android:title="BitcoinCash" />
+        android:title="@string/bitcoin_cash" />
 
     <item
         android:id="@+id/navigation_notifications"
         android:icon="@drawable/bitcoin_icon_1"
-        android:title="Bitcoin" />
+        android:title="@string/bitcoin" />
 
 </menu>

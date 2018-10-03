@@ -3,6 +3,8 @@
     package="com.mycoin.augustobueno.mycoinapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
@@ -12,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.Main.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Resumo" />
-        <activity android:name=".Livro" />
-        <activity android:name=".Historico" />
+        <activity android:name=".Activities.ListActivities.Resumo" />
+        <activity android:name=".Activities.ListActivities.Livro" />
+        <activity android:name=".Activities.ListActivities.Historico" />
+        <activity android:name=".Activities.Webviews.brazillex" />
+        <activity android:name=".Activities.Webviews.mercbiticoin"></activity>
     </application>
 
 </manifest>
